@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=D6A8FF&center=true&vCenter=true&width=760&lines=Initializing+Twilight...;Reverse+Engineering+the+Unknown;Security+Research+in+Progress;Twilight%2C+a+Guardian+Awakening+from+the+Dusk)](https://git.io/typing-svg)
+<img src="./assets/twilight-top-slogan.svg" width="100%" alt="Illuminating Threats Hidden in the Dark" />
 
 <br/>
 
@@ -88,7 +88,7 @@ NEXT TARGET   : UNKNOWN
 
 <div align="center">
 
-<img src="./assets/twilight-slogan.svg" width="100%" alt="Twilight, a Guardian Awakening from the Dusk" />
+<img src="./assets/twilight-slogan.svg" width="100%" alt="Twilight, Guardian of Light and Shadow" />
 
 <sub>Twilight awakens · CoreTrap watches</sub>
 
