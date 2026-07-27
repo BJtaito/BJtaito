@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-label="Illuminating Threats Hidden in the Dark">
+  <defs>
+    <linearGradient id="topText" x1="0" x2="1">
+      <stop offset="0" stop-color="#8e6f9e">
+        <animate attributeName="stop-color" values="#4c4057;#f0b2df;#9c82d9;#4c4057" dur="9.2s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="0.52" stop-color="#d7c5ef">
+        <animate attributeName="stop-color" values="#736b7c;#fff0cf;#d7c5ef;#736b7c" dur="9.2s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="1" stop-color="#5ecce2">
+        <animate attributeName="stop-color" values="#294650;#91f3ff;#5ecce2;#294650" dur="9.2s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <radialGradient id="horizonGlow" cx="50%" cy="52%" r="56%">
+      <stop offset="0" stop-color="#ffd5a3" stop-opacity="0.40" />
+      <stop offset="0.38" stop-color="#c36fff" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#0d1022" stop-opacity="0" />
+    </radialGradient>
+    <filter id="topGlow" x="-45%" y="-220%" width="190%" height="540%">
+      <feGaussianBlur stdDeviation="7" result="blur">
+        <animate attributeName="stdDeviation" values="4;12;7;4" dur="9.2s" repeatCount="indefinite" />
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="112" fill="transparent" />
+
+  <ellipse cx="600" cy="58" rx="430" ry="44" fill="url(#horizonGlow)" opacity="0.14">
+    <animate attributeName="opacity" values="0.08;0.44;0.72;0.28;0.08" keyTimes="0;0.30;0.50;0.72;1" dur="9.2s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="340;460;500;410;340" dur="9.2s" repeatCount="indefinite" />
+  </ellipse>
+
+  <text x="600" y="68" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="24" font-weight="600" letter-spacing="1.6" fill="#2c2635" opacity="0.95">Illuminating Threats Hidden in the Dark.</text>
+
+  <text x="600" y="68" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="24" font-weight="600" letter-spacing="1.6" fill="url(#topText)" filter="url(#topGlow)" opacity="0.18">
+    Illuminating Threats Hidden in the Dark.
+    <animate attributeName="opacity" values="0.18;0.66;0.96;0.42;0.18" keyTimes="0;0.30;0.50;0.72;1" dur="9.2s" repeatCount="indefinite" />
+  </text>
+
+  <line x1="315" y1="88" x2="885" y2="88" stroke="#8defff" stroke-width="1" opacity="0.10">
+    <animate attributeName="opacity" values="0.08;0.42;0.68;0.22;0.08" dur="9.2s" repeatCount="indefinite" />
+  </line>
+</svg>
