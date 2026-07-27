@@ -4,6 +4,8 @@
 
 <br/>
 
+### 🇰🇷 `KR`
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=D6A8FF&center=true&vCenter=true&width=760&lines=Initializing+Twilight...;Reverse+Engineering+the+Unknown;Security+Research+in+Progress;CoreTrap+Engine+Standing+By)](https://git.io/typing-svg)
 
 <br/>
@@ -85,51 +87,6 @@ NEXT TARGET   : UNKNOWN
 </div>
 
 <img src="./assets/petal-drift-alt.svg" width="100%" alt="Reverse drifting cherry blossom petals" />
-
-## 🔮 Research Protocol
-
-<div align="center">
-
-```text
-UNKNOWN INPUT
-     │
-     ▼
-┌─────────────┐    ┌───────────────┐    ┌─────────────┐    ┌──────────────┐
-│  DISCOVER   │ ─▶ │  DECONSTRUCT  │ ─▶ │   DETECT    │ ─▶ │   DOCUMENT   │
-│ quick triage│    │   Twilight    │    │  CoreTrap   │    │ evidence map │
-└─────────────┘    └───────────────┘    └─────────────┘    └──────────────┘
-```
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### `01 / DISCOVER`
-
-형식, 구조, 문자열과 표면적인 위험 신호를 빠르게 식별합니다.
-
-### `02 / DECONSTRUCT`
-
-코드와 데이터 흐름을 분해해 내부 동작과 숨겨진 의도를 추적합니다.
-
-</td>
-<td width="50%" valign="top">
-
-### `03 / DETECT`
-
-관찰한 행위를 탐지 규칙과 검증 가능한 로직으로 변환합니다.
-
-### `04 / DOCUMENT`
-
-근거, 흐름, 판단 결과를 재현 가능한 분석 기록으로 남깁니다.
-
-</td>
-</tr>
-</table>
-
-<img src="./assets/petal-drift.svg" width="100%" alt="Drifting cherry blossom petals" />
 
 <div align="center">
 
