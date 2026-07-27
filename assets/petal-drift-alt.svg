@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Alternate animated cherry blossom petals">
+  <defs>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="trace" x1="1" x2="0">
+      <stop offset="0" stop-color="#ff79c9" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#ff79c9" stop-opacity="0.13"/>
+      <stop offset="0.64" stop-color="#69eaff" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#69eaff" stop-opacity="0"/>
+    </linearGradient>
+    <g id="petal">
+      <path d="M0 0 C6 -8 14 -5 13 3 C12 10 4 12 0 6 C-4 12 -12 10 -13 3 C-14 -5 -6 -8 0 0Z" fill="#ffc0e2" fill-opacity="0.9"/>
+      <circle cx="0" cy="1" r="1" fill="#fff5fb"/>
+    </g>
+  </defs>
+
+  <path d="M1100 57 C850 35 750 82 590 57 C420 31 320 77 100 54" fill="none" stroke="url(#trace)" stroke-width="2" opacity="0.55"/>
+
+  <g filter="url(#glow)">
+    <g>
+      <use href="#petal" transform="scale(.38)"/>
+      <animateMotion dur="9s" repeatCount="indefinite" path="M1240,4 C980,22 890,96 650,73 C440,52 290,10 -40,64"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="0;-320;-680" dur="4.7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#petal" transform="scale(.26)"/>
+      <animateMotion dur="12s" begin="-5s" repeatCount="indefinite" path="M1260,78 C1040,30 860,102 650,35 C430,-30 250,92 -50,18"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="20;350;720" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#petal" transform="scale(.48)"/>
+      <animateMotion dur="14s" begin="-9s" repeatCount="indefinite" path="M1250,35 C1030,110 820,2 590,69 C390,128 230,24 -60,91"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="0;-260;-600" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#petal" transform="scale(.3)"/>
+      <animateMotion dur="8s" begin="-3s" repeatCount="indefinite" path="M1230,104 C1010,58 810,22 620,89 C420,158 240,5 -30,42"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="0;420;820" dur="4.2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#petal" transform="scale(.2)"/>
+      <animateMotion dur="10.6s" begin="-7s" repeatCount="indefinite" path="M1240,12 C1000,71 840,109 610,42 C390,-21 220,105 -50,70"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="30;-300;-710" dur="5.3s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <use href="#petal" transform="scale(.42)"/>
+      <animateMotion dur="11.3s" begin="-1s" repeatCount="indefinite" path="M1280,60 C1050,-5 840,88 620,18 C420,-45 210,98 -60,52"/>
+      <animateTransform attributeName="transform" additive="sum" type="rotate" values="0;300;650" dur="5.9s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>
