@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Twilight, a Guardian Awakening from the Dusk">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Twilight, Guardian of Light and Shadow">
   <defs>
     <linearGradient id="twilightText" x1="0" x2="1">
       <stop offset="0" stop-color="#e7a8ff">
-        <animate attributeName="stop-color" values="#72507f;#ffb7dd;#e7a8ff;#72507f" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#72507f;#ffb7dd;#e7a8ff;#72507f" dur="9.2s" repeatCount="indefinite" />
       </stop>
       <stop offset="0.48" stop-color="#f4d8ff">
-        <animate attributeName="stop-color" values="#887595;#fff0d6;#f4d8ff;#887595" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#887595;#fff0d6;#f4d8ff;#887595" dur="9.2s" repeatCount="indefinite" />
       </stop>
       <stop offset="1" stop-color="#7be8ff">
-        <animate attributeName="stop-color" values="#315968;#8ff4ff;#7be8ff;#315968" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#315968;#8ff4ff;#7be8ff;#315968" dur="9.2s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
     <radialGradient id="dawnGlow" cx="50%" cy="50%" r="58%">
@@ -18,7 +18,7 @@
     </radialGradient>
     <filter id="wideGlow" x="-40%" y="-200%" width="180%" height="500%">
       <feGaussianBlur stdDeviation="10" result="blur">
-        <animate attributeName="stdDeviation" values="6;16;9;6" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="stdDeviation" values="6;16;9;6" dur="9.2s" repeatCount="indefinite" />
       </feGaussianBlur>
       <feMerge>
         <feMergeNode in="blur" />
@@ -33,25 +33,25 @@
   <rect width="1200" height="150" fill="transparent" />
 
   <ellipse cx="600" cy="78" rx="510" ry="70" fill="url(#dawnGlow)" opacity="0.18">
-    <animate attributeName="opacity" values="0.10;0.58;0.88;0.38;0.10" keyTimes="0;0.30;0.50;0.72;1" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="rx" values="390;540;590;470;390" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.10;0.58;0.88;0.38;0.10" keyTimes="0;0.30;0.50;0.72;1" dur="9.2s" repeatCount="indefinite" />
+    <animate attributeName="rx" values="390;540;590;470;390" dur="9.2s" repeatCount="indefinite" />
   </ellipse>
 
   <line x1="180" y1="112" x2="1020" y2="112" stroke="#d989ff" stroke-width="1.5" opacity="0.18" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="0.12;0.62;0.86;0.32;0.12" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.12;0.62;0.86;0.32;0.12" dur="9.2s" repeatCount="indefinite" />
   </line>
 
-  <text x="600" y="88" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="31" font-weight="600" letter-spacing="1.2" fill="#34283f" opacity="0.94">Twilight, a Guardian Awakening from the Dusk.</text>
+  <text x="600" y="88" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="31" font-weight="600" letter-spacing="1.2" fill="#34283f" opacity="0.94">Twilight, Guardian of Light and Shadow.</text>
 
   <text x="600" y="88" text-anchor="middle" font-family="JetBrains Mono,Consolas,monospace" font-size="31" font-weight="600" letter-spacing="1.2" fill="url(#twilightText)" filter="url(#wideGlow)" opacity="0.26">
-    Twilight, a Guardian Awakening from the Dusk.
-    <animate attributeName="opacity" values="0.20;0.72;1;0.48;0.20" keyTimes="0;0.30;0.50;0.72;1" dur="12s" repeatCount="indefinite" />
+    Twilight, Guardian of Light and Shadow.
+    <animate attributeName="opacity" values="0.20;0.72;1;0.48;0.20" keyTimes="0;0.30;0.50;0.72;1" dur="9.2s" repeatCount="indefinite" />
   </text>
 
   <circle cx="314" cy="111" r="2.1" fill="#ffb5da" opacity="0.15">
-    <animate attributeName="opacity" values="0.08;0.70;0.15" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.08;0.70;0.15" dur="9.2s" repeatCount="indefinite" />
   </circle>
   <circle cx="884" cy="110" r="1.8" fill="#7eeaff" opacity="0.15">
-    <animate attributeName="opacity" values="0.15;0.82;0.10" dur="12s" begin="1.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.15;0.82;0.10" dur="9.2s" begin="1.15s" repeatCount="indefinite" />
   </circle>
 </svg>
