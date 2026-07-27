@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Twilight cyberpunk cherry blossom banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070818"/>
+      <stop offset="0.5" stop-color="#171034"/>
+      <stop offset="1" stop-color="#061326"/>
+    </linearGradient>
+    <radialGradient id="moonGlow">
+      <stop offset="0" stop-color="#f6dcff" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#d879ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8a2be2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffb6e8"/>
+      <stop offset="0.45" stop-color="#d8c6ff"/>
+      <stop offset="1" stop-color="#62eaff"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#5de7ff" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <g id="petal">
+      <path d="M0 0 C7 -8 16 -5 15 3 C14 11 5 14 0 7 C-5 14 -14 11 -15 3 C-16 -5 -7 -8 0 0Z" fill="#ffb7dd" fill-opacity="0.88"/>
+      <circle cx="0" cy="2" r="1.5" fill="#fff0fa"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="url(#sky)"/>
+  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+
+  <circle cx="920" cy="95" r="125" fill="url(#moonGlow)">
+    <animate attributeName="r" values="118;132;118" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="920" cy="95" r="49" fill="#f8eaff" opacity="0.88" filter="url(#softGlow)"/>
+  <circle cx="940" cy="78" r="49" fill="#14102d"/>
+
+  <g opacity="0.66">
+    <path d="M0 320 L70 276 L120 301 L184 248 L247 294 L320 225 L393 279 L470 240 L535 292 L614 216 L688 276 L758 230 L830 283 L915 225 L988 282 L1050 238 L1120 280 L1200 242 L1200 420 L0 420Z" fill="#0b0d20"/>
+    <path d="M0 356 L92 331 L160 347 L238 312 L320 349 L402 306 L478 338 L570 303 L650 350 L735 315 L820 346 L913 304 L1010 347 L1100 318 L1200 343 L1200 420 L0 420Z" fill="#070914"/>
+  </g>
+
+  <g opacity="0.78">
+    <rect x="82" y="278" width="55" height="95" fill="#0b1020"/>
+    <rect x="154" y="244" width="70" height="129" fill="#0b1020"/>
+    <rect x="240" y="299" width="48" height="74" fill="#0b1020"/>
+    <rect x="918" y="265" width="66" height="108" fill="#0b1020"/>
+    <rect x="1001" y="229" width="80" height="144" fill="#0b1020"/>
+    <rect x="1102" y="287" width="47" height="86" fill="#0b1020"/>
+    <g fill="#62eaff" opacity="0.55">
+      <rect x="93" y="292" width="8" height="3"/><rect x="116" y="309" width="8" height="3"/>
+      <rect x="170" y="263" width="11" height="3"/><rect x="198" y="281" width="10" height="3"/>
+      <rect x="930" y="282" width="12" height="3"/><rect x="959" y="302" width="10" height="3"/>
+      <rect x="1017" y="249" width="13" height="3"/><rect x="1050" y="273" width="12" height="3"/>
+    </g>
+    <g fill="#ff60c7" opacity="0.62">
+      <rect x="93" y="326" width="12" height="3"/><rect x="181" y="318" width="13" height="3"/>
+      <rect x="1021" y="309" width="14" height="3"/><rect x="1114" y="319" width="10" height="3"/>
+    </g>
+  </g>
+
+  <path d="M0 369 C240 344 420 394 628 367 C826 342 998 386 1200 357 L1200 420 L0 420Z" fill="#090b18"/>
+  <path d="M0 370 C240 345 420 395 628 368 C826 343 998 387 1200 358" fill="none" stroke="#b663ff" stroke-opacity="0.35" stroke-width="2" filter="url(#softGlow)"/>
+
+  <g transform="translate(92 91)">
+    <text x="0" y="0" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="5" fill="#79eaff" opacity="0.82">SECURITY RESEARCH ENVIRONMENT</text>
+    <text x="0" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="13" fill="url(#title)" filter="url(#glow)">TWILIGHT</text>
+    <text x="5" y="127" font-family="Consolas,monospace" font-size="17" letter-spacing="2" fill="#f4d8ff">Reverse Engineering  ·  Security Automation  ·  Game Security</text>
+    <text x="5" y="180" font-family="Consolas,monospace" font-size="15" fill="#8df4ff" opacity="0.88">&gt; ANALYZING THE UNKNOWN</text>
+    <rect x="236" y="164" width="10" height="20" rx="1" fill="#ff75cc" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="Consolas,monospace" font-size="12" fill="#c5b5ff" opacity="0.72">
+    <text x="922" y="290">PROJECT_01  TWILIGHT</text>
+    <text x="922" y="312">PROJECT_02  CORETRAP</text>
+    <text x="922" y="344" fill="#6effd8">SYSTEM STATUS  ONLINE</text>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <use href="#petal" transform="translate(90 -20) scale(.45)">
+      <animateTransform attributeName="transform" type="translate" values="90 -20;170 440" dur="10s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(230 -40) scale(.35)">
+      <animateTransform attributeName="transform" type="translate" values="230 -40;410 440" dur="13s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(410 -30) scale(.5)">
+      <animateTransform attributeName="transform" type="translate" values="410 -30;520 450" dur="9s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(610 -20) scale(.4)">
+      <animateTransform attributeName="transform" type="translate" values="610 -20;760 450" dur="12s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(770 -45) scale(.34)">
+      <animateTransform attributeName="transform" type="translate" values="770 -45;875 440" dur="11s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(970 -30) scale(.48)">
+      <animateTransform attributeName="transform" type="translate" values="970 -30;1080 450" dur="14s" repeatCount="indefinite"/>
+    </use>
+    <use href="#petal" transform="translate(1130 -55) scale(.38)">
+      <animateTransform attributeName="transform" type="translate" values="1130 -55;1180 450" dur="10.5s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <g opacity="0.25">
+    <rect x="70" y="206" width="505" height="2" fill="#ff55c8">
+      <animate attributeName="x" values="70;104;70" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="90" y="212" width="450" height="1" fill="#65ecff">
+      <animate attributeName="x" values="90;52;90" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
