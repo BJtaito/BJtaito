@@ -39,7 +39,9 @@
     <animate attributeName="r" values="118;132;118" dur="7s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.72;1;0.72" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="920" cy="95" r="49" fill="#f8eaff" opacity="0.88" filter="url(#softGlow)"/>
+  <circle cx="920" cy="95" r="49" fill="#f8eaff" opacity="0.88" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.88;0.7;0.84;0.62;0.88" keyTimes="0;0.28;0.55;0.77;1" dur="11s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="940" cy="78" r="49" fill="#14102d"/>
 
   <g opacity="0.66">
@@ -55,12 +57,14 @@
     <rect x="1001" y="229" width="80" height="144" fill="#0b1020"/>
     <rect x="1102" y="287" width="47" height="86" fill="#0b1020"/>
     <g fill="#62eaff" opacity="0.55">
+      <animate attributeName="opacity" values="0.55;0.3;0.5;0.22;0.55" dur="9s" repeatCount="indefinite"/>
       <rect x="93" y="292" width="8" height="3"/><rect x="116" y="309" width="8" height="3"/>
       <rect x="170" y="263" width="11" height="3"/><rect x="198" y="281" width="10" height="3"/>
       <rect x="930" y="282" width="12" height="3"/><rect x="959" y="302" width="10" height="3"/>
       <rect x="1017" y="249" width="13" height="3"/><rect x="1050" y="273" width="12" height="3"/>
     </g>
     <g fill="#ff60c7" opacity="0.62">
+      <animate attributeName="opacity" values="0.62;0.35;0.56;0.28;0.62" dur="10.5s" repeatCount="indefinite"/>
       <rect x="93" y="326" width="12" height="3"/><rect x="181" y="318" width="13" height="3"/>
       <rect x="1021" y="309" width="14" height="3"/><rect x="1114" y="319" width="10" height="3"/>
     </g>
@@ -71,7 +75,9 @@
 
   <g transform="translate(92 91)">
     <text x="0" y="0" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="5" fill="#79eaff" opacity="0.82">SECURITY RESEARCH ENVIRONMENT</text>
-    <text x="0" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="13" fill="url(#title)" filter="url(#glow)">TWILIGHT</text>
+    <text x="0" y="86" font-family="Segoe UI,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="13" fill="url(#title)" filter="url(#glow)">TWILIGHT
+      <animate attributeName="opacity" values="1;0.82;0.96;0.7;1" keyTimes="0;0.3;0.57;0.78;1" dur="12s" repeatCount="indefinite"/>
+    </text>
     <text x="5" y="127" font-family="Consolas,monospace" font-size="17" letter-spacing="2" fill="#f4d8ff">Reverse Engineering  ·  Security Automation  ·  Game Security</text>
     <text x="5" y="180" font-family="Consolas,monospace" font-size="15" fill="#8df4ff" opacity="0.88">&gt; ANALYZING THE UNKNOWN</text>
     <rect x="236" y="164" width="10" height="20" rx="1" fill="#ff75cc" filter="url(#softGlow)">
@@ -86,35 +92,21 @@
   </g>
 
   <g filter="url(#softGlow)">
-    <use href="#petal" transform="translate(90 -20) scale(.45)">
-      <animateTransform attributeName="transform" type="translate" values="90 -20;170 440" dur="10s" repeatCount="indefinite"/>
-    </use>
-    <use href="#petal" transform="translate(230 -40) scale(.35)">
-      <animateTransform attributeName="transform" type="translate" values="230 -40;410 440" dur="13s" repeatCount="indefinite"/>
-    </use>
-    <use href="#petal" transform="translate(410 -30) scale(.5)">
-      <animateTransform attributeName="transform" type="translate" values="410 -30;520 450" dur="9s" repeatCount="indefinite"/>
-    </use>
-    <use href="#petal" transform="translate(610 -20) scale(.4)">
-      <animateTransform attributeName="transform" type="translate" values="610 -20;760 450" dur="12s" repeatCount="indefinite"/>
-    </use>
-    <use href="#petal" transform="translate(770 -45) scale(.34)">
-      <animateTransform attributeName="transform" type="translate" values="770 -45;875 440" dur="11s" repeatCount="indefinite"/>
-    </use>
-    <use href="#petal" transform="translate(970 -30) scale(.48)">
-      <animateTransform attributeName="transform" type="translate" values="970 -30;1080 450" dur="14s" repeatCount="indefinite"/>
-    </use>
-    <use href="#petal" transform="translate(1130 -55) scale(.38)">
-      <animateTransform attributeName="transform" type="translate" values="1130 -55;1180 450" dur="10.5s" repeatCount="indefinite"/>
-    </use>
+    <use href="#petal" transform="translate(90 -20) scale(.45)"><animateTransform attributeName="transform" type="translate" values="90 -20;170 440" dur="10s" repeatCount="indefinite"/></use>
+    <use href="#petal" transform="translate(230 -40) scale(.35)"><animateTransform attributeName="transform" type="translate" values="230 -40;410 440" dur="13s" repeatCount="indefinite"/></use>
+    <use href="#petal" transform="translate(410 -30) scale(.5)"><animateTransform attributeName="transform" type="translate" values="410 -30;520 450" dur="9s" repeatCount="indefinite"/></use>
+    <use href="#petal" transform="translate(610 -20) scale(.4)"><animateTransform attributeName="transform" type="translate" values="610 -20;760 450" dur="12s" repeatCount="indefinite"/></use>
+    <use href="#petal" transform="translate(770 -45) scale(.34)"><animateTransform attributeName="transform" type="translate" values="770 -45;875 440" dur="11s" repeatCount="indefinite"/></use>
+    <use href="#petal" transform="translate(970 -30) scale(.48)"><animateTransform attributeName="transform" type="translate" values="970 -30;1080 450" dur="14s" repeatCount="indefinite"/></use>
+    <use href="#petal" transform="translate(1130 -55) scale(.38)"><animateTransform attributeName="transform" type="translate" values="1130 -55;1180 450" dur="10.5s" repeatCount="indefinite"/></use>
   </g>
 
   <g opacity="0.25">
-    <rect x="70" y="206" width="505" height="2" fill="#ff55c8">
-      <animate attributeName="x" values="70;104;70" dur="4s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="90" y="212" width="450" height="1" fill="#65ecff">
-      <animate attributeName="x" values="90;52;90" dur="3.2s" repeatCount="indefinite"/>
-    </rect>
+    <rect x="70" y="206" width="505" height="2" fill="#ff55c8"><animate attributeName="x" values="70;104;70" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="90" y="212" width="450" height="1" fill="#65ecff"><animate attributeName="x" values="90;52;90" dur="3.2s" repeatCount="indefinite"/></rect>
   </g>
+
+  <rect width="1200" height="420" rx="24" fill="#02030b" opacity="0.04">
+    <animate attributeName="opacity" values="0.04;0.17;0.07;0.23;0.05;0.14;0.04" keyTimes="0;0.2;0.38;0.56;0.7;0.84;1" dur="12s" repeatCount="indefinite"/>
+  </rect>
 </svg>
