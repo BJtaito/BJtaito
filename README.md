@@ -12,7 +12,7 @@
 
 </div>
 
----
+<img src="./assets/petal-drift.svg" width="100%" alt="Drifting cherry blossom petals" />
 
 ## 🌙 About
 
@@ -29,7 +29,7 @@ CORE ENGINE   : STANDBY
 NEXT TARGET   : UNKNOWN
 ```
 
----
+<img src="./assets/petal-drift-alt.svg" width="100%" alt="Reverse drifting cherry blossom petals" />
 
 ## 🌓 Featured Projects
 
@@ -67,7 +67,7 @@ NEXT TARGET   : UNKNOWN
 </tr>
 </table>
 
----
+<img src="./assets/petal-drift.svg" width="100%" alt="Drifting cherry blossom petals" />
 
 ## 🧬 Research Stack
 
@@ -84,22 +84,52 @@ NEXT TARGET   : UNKNOWN
 
 </div>
 
----
+<img src="./assets/petal-drift-alt.svg" width="100%" alt="Reverse drifting cherry blossom petals" />
 
-## 📡 Activity Signal
+## 🔮 Research Protocol
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=BJtaito&show_icons=true&hide_title=true&hide_border=true&bg_color=0D1117&text_color=D8C9EA&icon_color=E489FF&ring_color=6DEAFF" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BJtaito&layout=compact&hide_border=true&bg_color=0D1117&text_color=D8C9EA&title_color=E489FF" alt="Top languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=BJtaito&bg_color=0D1117&color=D8C9EA&line=C879FF&point=66E8FF&area=true&hide_border=true" width="96%" alt="Contribution activity graph" />
+```text
+UNKNOWN INPUT
+     │
+     ▼
+┌─────────────┐    ┌───────────────┐    ┌─────────────┐    ┌──────────────┐
+│  DISCOVER   │ ─▶ │  DECONSTRUCT  │ ─▶ │   DETECT    │ ─▶ │   DOCUMENT   │
+│ quick triage│    │   Twilight    │    │  CoreTrap   │    │ evidence map │
+└─────────────┘    └───────────────┘    └─────────────┘    └──────────────┘
+```
 
 </div>
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `01 / DISCOVER`
+
+형식, 구조, 문자열과 표면적인 위험 신호를 빠르게 식별합니다.
+
+### `02 / DECONSTRUCT`
+
+코드와 데이터 흐름을 분해해 내부 동작과 숨겨진 의도를 추적합니다.
+
+</td>
+<td width="50%" valign="top">
+
+### `03 / DETECT`
+
+관찰한 행위를 탐지 규칙과 검증 가능한 로직으로 변환합니다.
+
+### `04 / DOCUMENT`
+
+근거, 흐름, 판단 결과를 재현 가능한 분석 기록으로 남깁니다.
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/petal-drift.svg" width="100%" alt="Drifting cherry blossom petals" />
 
 <div align="center">
 
