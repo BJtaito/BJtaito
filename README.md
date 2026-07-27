@@ -88,7 +88,7 @@ NEXT TARGET   : UNKNOWN
 
 <div align="center">
 
-### `Twilight, a Guardian Awakening from the Dusk.`
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=D6A8FF&center=true&vCenter=true&width=620&lines=Twilight%2C+a+Guardian+Awakening+from+the+Dusk.)](https://git.io/typing-svg)
 
 <sub>Twilight awakens · CoreTrap watches</sub>
 
