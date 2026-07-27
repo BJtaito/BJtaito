@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=D6A8FF&center=true&vCenter=true&width=760&lines=Initializing+Twilight...;Reverse+Engineering+the+Unknown;Security+Research+in+Progress;A+Cyber+Guardian+Rising+from+the+Twilight)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=D6A8FF&center=true&vCenter=true&width=760&lines=Initializing+Twilight...;Reverse+Engineering+the+Unknown;Security+Research+in+Progress;Twilight%2C+a+Guardian+Awakening+from+the+Dusk)](https://git.io/typing-svg)
 
 <br/>
 
@@ -88,7 +88,7 @@ NEXT TARGET   : UNKNOWN
 
 <div align="center">
 
-### `From the Twilight, a Cyber Guardian Rises.`
+### `Twilight, a Guardian Awakening from the Dusk.`
 
 <sub>Twilight awakens · CoreTrap watches</sub>
 
