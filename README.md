@@ -8,11 +8,7 @@
 
 <br/>
 
-`Reverse Engineering`　`Security Automation`　`Game Security`　`DevSecOps`
-
-<br/>
-
-<sub>🇰🇷 KR</sub>
+`🇰🇷 KR`　`Reverse Engineering`　`Security Automation`　`Game Security`　`DevSecOps`
 
 </div>
 
