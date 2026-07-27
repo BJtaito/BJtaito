@@ -4,13 +4,15 @@
 
 <br/>
 
-### 🇰🇷 `KR`
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1100&color=D6A8FF&center=true&vCenter=true&width=760&lines=Initializing+Twilight...;Reverse+Engineering+the+Unknown;Security+Research+in+Progress;CoreTrap+Engine+Standing+By)](https://git.io/typing-svg)
 
 <br/>
 
 `Reverse Engineering`　`Security Automation`　`Game Security`　`DevSecOps`
+
+<br/>
+
+<sub>🇰🇷 KR</sub>
 
 </div>
 
